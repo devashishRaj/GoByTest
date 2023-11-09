@@ -19,7 +19,7 @@ func TestHello(t *testing.T) {
 
 }
 
-// rduces duplication and improves readability of our tests.
+// reduces duplication and improves readability of our tests.
 //	pass in t *testing.T so that we can tell the test code to fail when we need to.
 // accept a testing.TB which is an interface that *testing.T and *testing.B both satisfy,
 //so you can call helper functions from a test, or a benchmark
