@@ -4,8 +4,8 @@ import "fmt"
 
 // It's worth thinking about creating ants to capture the meaning of values and to even aid performance.
 const (
-	spanish = "Spanish"
-	french  = "French"
+	//spanish = "Spanish"
+	//french  = "French"
 
 	englishHelloPrefix = "Hello, "
 	spanishHelloPrefix = "Hola, "

@@ -1,7 +1,11 @@
 ## Test-driven development (TDD) with Go [Index](#index)
+
+
+
 - Write a test
 - Make the compiler pass
-- Run the test, see that it fails and check the error message is meaningful
+- Run the test, see that it fails and check the error message is meaningfu
+- Remember, keep trying to run the test and let the compiler guide you toward a solution.
 - Write enough code to make the test pass
 - Refactor
 
