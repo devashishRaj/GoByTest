@@ -1,4 +1,4 @@
-package chapter2_test
+package integers
 
 import (
 	"fmt"

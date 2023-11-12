@@ -1,10 +1,9 @@
-## Test-driven development (TDD) with Go [Index](#index)
-
-
+## NOTES on Test-driven development (TDD) with Go 
+[Index](#index)
 
 - Write a test
 - Make the compiler pass
-- Run the test, see that it fails and check the error message is meaningfu
+- Run the test, see that it fails and check the error message is meaningful
 - Remember, keep trying to run the test and let the compiler guide you toward a solution.
 - Write enough code to make the test pass
 - Refactor
@@ -28,9 +27,15 @@ Writing a test is just like writing a function, with a few rules
 
 ```
 
+
+
 ## Index
 
-1. [Chapter 1 : Hello World of test "package main is declared here"](Chapter1/)
-2. [Chapter 2 : Examples ](Chapter2/)
-3. [Chapter 3 : Benchamrking](Chapter3/)
-4. [Chapter 4 : Coverage](Chapter4/)
+1. [Chapter 1 : Hello World of test "package main is declared here"](Hello/)
+2. [Chapter 2 : Integers and Examples ](Integers/)
+3. [Chapter 3 : Iterations and Benchamrking](Iterations/)
+4. [Chapter 4 :  Array , Slices and Coverage](ArraySlices/)
+5. [Chapter 5 : Structs , Methods , Interface and Table driven tests](Structs/)
+6. [Chapter 6: Pointers and Bitcoin](Bitcoin/)
+
+##### [SOURCE](https://github.com/quii/learn-go-with-tests)

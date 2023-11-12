@@ -1,4 +1,4 @@
-package structsMethodsInterface
+package structs
 
 import "testing"
 
@@ -88,7 +88,7 @@ func TestArea(t *testing.T) {
 	}
 
 	for _, tt := range areaTests {
-		//By wrapping each case in a t.Run you will have clearer test output on failures as it will 
+		//By wrapping each case in a t.Run you will have clearer test output on failures as it will
 		//print the name of the case
 		t.Run(tt.name, func(t *testing.T) {
 			got := tt.shape.Area()
@@ -96,7 +96,7 @@ func TestArea(t *testing.T) {
 				// We can change our error message into %#v got %g want %g.
 				//The %#v format string will print out our struct with the values in its field,
 				//so the developer can see at a glance the properties that are being tested.
-				t.Errorf("%#v got %g want %g" , tt.shape , got , tt.hasArea)
+				t.Errorf("%#v got %g want %g", tt.shape, got, tt.hasArea)
 			}
 		})
 	}
