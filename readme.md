@@ -17,6 +17,8 @@ By ensuring your tests are fast and setting up your tools so that running tests 
 
 It should not be a goal to have as many tests as possible, but rather to have as much confidence as possible in your code base. Having too many tests can turn in to a real problem and it just adds more overhead in maintenance. __Every test has a cost.__  
 
+__The definition of refactoring is that the code changes but the behaviour stays the same. If you have decided to do some refactoring in theory you should be able to make the commit without any test changes.__
+
 ### By not writing tests you are committing to manually checking your code by running your software which breaks your state of flow and you won't be saving yourself any time, especially in the long run.
 
 ```

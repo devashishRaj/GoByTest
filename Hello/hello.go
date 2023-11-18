@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	countdown "gobyTests/Countdown"
+	"os"
+	"time"
+)
 
 // It's worth thinking about creating ants to capture the meaning of values and to even aid performance.
 const (
@@ -36,6 +40,27 @@ func greetingPrefix(language string) (prefix string) {
 	return
 }
 
+type Sleeper interface {
+	Sleep()
+}
+
+// ConfigurableSleeper is an implementation of Sleeper with a defined delay.
+type ConfigurableSleeper struct {
+	duration time.Duration
+	sleep    func(time.Duration)
+}
+
+// Sleep will pause execution for the defined Duration.
+func (c *ConfigurableSleeper) Sleep() {
+	c.sleep(c.duration)
+}
+
 func main() {
-	fmt.Println(Hello("World", ""))
+	//fmt.Println(Hello("World", ""))
+	//dependency.Greet(os.Stdout, "Elodie")
+
+	// chapter 8 : mocking
+	//sleeper := countdown.ConfigurableSleeper{1 * time.Second, time.Sleep}
+	sleeper := &ConfigurableSleeper{1 * time.Second, time.Sleep}
+	countdown.Countdown(os.Stdout, sleeper)
 }
