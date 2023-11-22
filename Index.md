@@ -12,3 +12,13 @@
 [Chapter 10: Concurrency](Concurrency/)
 [Chapter 11: Select](Select/)
 [Chapter 12: Reflection](Reflection/)
+[Chapter 13: Sync](Sync/)
+[Chapter 14: Context](Context/)
+[Chapter 15: Property based test (Roman Numerals Kata)](PropertyBased/)
+[Chapter 16: Maths (Clockface)](clockface/)
+[Chapter 18: Reading Files](blogposts/)
+[Chapter 19: Templating](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/html-templates)
+[Chapter 20: Generics](generics/)  
+
+// Todo
+[Chpater 21: Fold/Reduce : extension of  chapter 4 and 20](Reduce/)  
